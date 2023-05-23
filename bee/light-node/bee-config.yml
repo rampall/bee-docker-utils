@@ -5,7 +5,7 @@ debug-api-addr: :1635
 password-file: /home/bee/password
 data-dir: /home/bee/.bee
 
-#DEBUG CONFIGURATION
+# DEBUG CONFIGURATION
 debug-api-enable: true
 verbosity: 5
 
