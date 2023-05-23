@@ -31,14 +31,14 @@ openssl rand -base64 24 > ./bee-home-dir/password
 
 Step 5: Copy the relevant bee config file from the quickstart repository into this directory 
 ```shell
-wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/bee-config.yaml -O ./bee-home-dir/.bee.yaml
+wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/bee-config.yml -O ./bee-home-dir/.bee.yml
 ```
 
 ## Docker Compose Setup
 
 Step 6: Copy the relevant docker compose file from the quickstart repository into this directory 
 ```shell
-wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/docker-compose.yaml -O ./docker-compose.yaml
+wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/docker-compose.yml -O ./docker-compose.yml
 ```
 
 ## Run Bee 
@@ -53,9 +53,9 @@ tree -a .
 .
 ├── bee-home-dir
 │   ├── .bee
-│   ├── .bee.yaml
+│   ├── .bee.yml
 │   └── password
-└── docker-compose.yaml
+└── docker-compose.yml
 ```
 
 Step 7: Run bee node:
