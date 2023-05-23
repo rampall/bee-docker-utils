@@ -1,4 +1,4 @@
-# How to run Bee in Ultra-Light mode with docker compose
+# Run Bee in Ultra-Light mode with docker compose
 
 ## Github
 
