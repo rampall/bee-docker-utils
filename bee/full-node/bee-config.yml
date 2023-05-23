@@ -1,14 +1,19 @@
-# GENERAL CONFIGURATION
-api-addr: 127.0.0.1:1633
+# GENERAL BEE CONFIGURATION
+api-addr: :1633
 p2p-addr: :1634
-debug-api-addr: 127.0.0.1:1635
+debug-api-addr: :1635
 password-file: /home/bee/password
 data-dir: /home/bee/.bee
+cors-allowed-origins: "*"
 
-# MAINNET CONFIGURATION
+#DEBUG CONFIGURATION
+debug-api-enable: true
+verbosity: 5
+
+# BEE MAINNET CONFIGURATION
 bootnode: /dnsaddr/mainnet.ethswarm.org
 
-# ULTRA-LIGHT CONFIGURATION
-swap-enable: false
-full-node: false
-debug-api-enable: true
+# BEE MODE: FULL NODE CONFIGURATION
+full-node: true
+swap-enable: true
+blockchain-rpc-endpoint: https://xdai.fairdatasociety.org
