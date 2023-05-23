@@ -4,6 +4,7 @@ p2p-addr: :1634
 debug-api-addr: 127.0.0.1:1635
 password-file: /home/bee/password
 data-dir: /home/bee/.bee
+
 # MAINNET CONFIGURATION
 bootnode: /dnsaddr/mainnet.ethswarm.org
 
