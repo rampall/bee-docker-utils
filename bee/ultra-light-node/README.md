@@ -67,10 +67,11 @@ tree -a .
 ```
 
 ## Run Bee 
-Step 7: Run bee node with docker compose:
+
+### Step 7: Run bee node with docker compose:
 ```
 docker compose up
 ```
 
-## Check Bee Dashboard
+### Step 8: Check Bee Dashboard
 Step 8: Visit the Bee Dashboard at - http://localhost:8080/ 
