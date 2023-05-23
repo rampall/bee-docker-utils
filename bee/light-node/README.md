@@ -41,7 +41,6 @@ Step 6: Copy the relevant docker compose file from the quickstart repository int
 wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/bee/light-node/docker-compose.yml -O ./docker-compose.yml
 ```
 
-## Run Bee 
 Our project folder setup should now look like this:
 
 ![image](https://github.com/rampall/docker-compose-bee-quickstart/assets/520570/8fcf825c-f4ff-4f34-aa75-ea26ca6d9df4)
@@ -58,7 +57,11 @@ tree -a .
 └── docker-compose.yml
 ```
 
-Step 7: Run bee node:
+## Run Bee 
+Step 7: Run bee node with docker compose:
 ```
 docker compose up
 ```
+
+## Check Bee Dashboard
+Step 8: Visit the Bee Dashboard at - http://localhost:3333/ 
