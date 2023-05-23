@@ -1,12 +1,12 @@
-# Run Bee in Ultra-Light mode
+# Run Bee as a Full Node
 
 ## Create a project directory
 
 Step 1: 
 
 ```bash
-mkdir bee-ultra-light
-cd bee-ultra-light
+mkdir bee-fullnode
+cd bee-fullnode
 ```
 
 ## Bee Setup (for host-mounted docker volume)
@@ -31,14 +31,14 @@ openssl rand -base64 24 > ./bee-home-dir/password
 
 Step 5: Copy the relevant bee config file from the quickstart repository into this directory 
 ```shell
-wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/bee/ultra-light-node/bee-config.yml -O ./bee-home-dir/.bee.yml
+wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/bee/full-node/bee-config.yml -O ./bee-home-dir/.bee.yml
 ```
 
 ## Docker Compose Setup
 
 Step 6: Copy the relevant docker compose file from the quickstart repository into this directory 
 ```shell
-wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/bee/light-node/docker-compose.yml -O ./docker-compose.yml
+wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/bee/full-node/docker-compose.yml -O ./docker-compose.yml
 ```
 
 Our project folder setup should now look like this:
