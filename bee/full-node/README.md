@@ -88,7 +88,7 @@ Visit https://www.gnosisfaucet.com/ and paste the address in the **Wallet** fiel
 
 ![image](https://github.com/rampall/docker-compose-bee-quickstart/assets/520570/d3b2f19c-869d-400b-b300-fef2336a3d2b)
 
-The bee node's wallet should be now funded and the bee light node will proceed to sync with the Swarm network.
+The bee node's wallet should be now funded and the bee full node will proceed to sync with the Swarm network.
 
 ## Check Bee Dashboard
 
