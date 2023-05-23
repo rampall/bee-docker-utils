@@ -15,4 +15,4 @@ bootnode: /dnsaddr/mainnet.ethswarm.org
 # BEE MODE: LIGHT CONFIGURATION
 full-node: false
 swap-enable: true
-blockchain-rpc-endpoint: https://gno.getblock.io/<YOUR_API_KEY>/mainnet/
+blockchain-rpc-endpoint: https://rpc.gnosischain.com/
