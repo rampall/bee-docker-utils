@@ -82,6 +82,7 @@ bee        | "time"="2023-05-23 14:59:16.210262" "level"="warning" "logger"="nod
 
 ## Fund your node's wallet
 
+### Step 8: xDAI funding
 Copy your node's wallet address from the logs.
 
 Visit https://www.gnosisfaucet.com/ and paste the address in the **Wallet** field to request 0.025 DAI. 
@@ -92,4 +93,4 @@ The bee node's wallet should be now funded and the bee full node will proceed to
 
 ## Check Bee Dashboard
 
-### Step 8: You can visit the Bee Dashboard at - http://localhost:8080/ 
+### Step 9: You can visit the Bee Dashboard at - http://localhost:8080/ 
