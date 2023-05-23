@@ -48,7 +48,7 @@ wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/mai
 
 ## Docker Compose Setup
 
-Step 6: Copy the relevant docker compose file from the quickstart repository into this directory 
+### Step 6: Copy the relevant docker compose file from the quickstart repository into this directory 
 ```shell
 wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/bee/light-node/docker-compose.yml -O ./docker-compose.yml
 ```
@@ -70,7 +70,8 @@ tree -a .
 ```
 
 ## Run Bee 
-Step 7: Run bee node with docker compose:
+
+### Step 7: Run bee node with docker compose:
 ```
 docker compose up
 ```
@@ -79,7 +80,7 @@ The bee node will now fire up and then request for funds to be added to the node
 bee        | "time"="2023-05-23 14:59:16.210262" "level"="warning" "logger"="node/chequebook" "msg"="cannot continue until there is at least min xDAI (for Gas) available on address" "min_xdai_amount"="0.000698400544" "address"="0xcde7Db709fa16aaE6f5e94042026453AC2b1A3DF"
 ```
 
-## Fund your node's wallet
+### Step 8: Fund your node's wallet
 
 Copy your node's wallet address from the logs.
 
@@ -89,5 +90,5 @@ Visit https://www.gnosisfaucet.com/ and paste the address in the **Wallet** fiel
 
 The bee node's wallet should be now funded and the bee light node will proceed to sync with the Swarm network.
 
-## Check Bee Dashboard
-Step 8: You can visit the Bee Dashboard at - http://localhost:8080/ 
+### Step 9: Check Bee Dashboard
+You can visit the Bee Dashboard at - http://localhost:8080/ 
