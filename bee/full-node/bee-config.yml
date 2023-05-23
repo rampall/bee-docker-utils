@@ -6,7 +6,7 @@ password-file: /home/bee/password
 data-dir: /home/bee/.bee
 cors-allowed-origins: "*"
 
-#DEBUG CONFIGURATION
+# DEBUG CONFIGURATION
 debug-api-enable: true
 verbosity: 5
 
