@@ -1,4 +1,4 @@
-# Run Bee as a light node with docker compose
+# Run Bee as a full node with docker compose
 
 ## Github
 
