@@ -1,13 +1,14 @@
-# docker-compose-bee-quickstart
+# Bee Quickstart with Docker Compose 
 
 ## Run Bee in Ultra-Light mode
 
-Create a project directory
+### Create a project directory
 ```bash
 mkdir bee-ultra-light
 cd bee-ultra-light
 ```
 
+### Bee Setup (for host-mounted docker volume)
 Create a directory that will be host-mounted and used by Bee to store keys and data
 ```shell
 mkdir bee-home-dir
@@ -29,3 +30,22 @@ Copy the relevant bee config file from the quickstart repository into this direc
 ```shell
 wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/bee-config.yaml -O ./bee-home-dir/.bee.yaml
 ```
+
+### Docker Compose Setup
+Copy the relevant docker compose file from the quickstart repository into this directory 
+```shell
+wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/docker-compose.yaml -O ./docker-compose.yaml
+```
+
+### Run Bee 
+Our project folder setup should now look like this:
+
+![image](https://github.com/rampall/docker-compose-bee-quickstart/assets/520570/8fcf825c-f4ff-4f34-aa75-ea26ca6d9df4)
+
+To run bee node:
+```
+docker compose up
+```
+
+
+
