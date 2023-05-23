@@ -1,0 +1,22 @@
+services:
+    bee-ultra-light:
+        image: ethersphere/bee:stable
+        volumes:
+            - ./bee-home-dir:/home/bee
+        command: start
+        ports:
+            - 1633:1633
+            - 1634:1634
+            - 1635:1635
+        networks:
+            - public
+
+    bee-dashboard:
+        image: cafe137/bee-dashboard
+        ports:
+            - 3000:8080
+        networks:
+            - public
+
+networks:
+    public:
