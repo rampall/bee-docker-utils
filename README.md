@@ -22,7 +22,7 @@ Generate a random string and save it to a file.
 This will be used as the password for Bee. 
 Keep a copy of this password somewhere safe. It will be required for importing/exporting wallets (into Metamask for instance) 
 ```shell
-rp@pc:~/bee-ultra-light$ openssl rand -base64 24 > ./bee-home-dir/.bee/password
+rp@pc:~/bee-ultra-light$ openssl rand -base64 24 > ./bee-home-dir/password
 ```
 
 Copy the relevant bee config file from the quickstart repository into this directory 
