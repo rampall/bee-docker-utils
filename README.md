@@ -27,5 +27,5 @@ rp@pc:~/bee-ultra-light$ openssl rand -base64 24 > ./bee-home-dir/password
 
 Copy the relevant bee config file from the quickstart repository into this directory 
 ```shell
-rp@pc:~/bee-ultra-light$ wget 
+rp@pc:~/bee-ultra-light$ wget https://raw.githubusercontent.com/rampall/docker-compose-bee-quickstart/main/single-bee/ultra-light-node/bee-config.yaml -O ./bee-home-dir/bee-config.yaml
 ```
