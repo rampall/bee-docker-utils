@@ -1,20 +1,22 @@
 services:
     bee-ultra-light:
+        container_name: bee
         image: ethersphere/bee:stable
+        command: start
         volumes:
             - ./bee-home-dir:/home/bee
-        command: start
         ports:
-            - 1633:1633
-            - 1634:1634
-            - 1635:1635
+            - 1133:1633
+            - 1134:1634
+            - 1135:1635
         networks:
             - public
 
     bee-dashboard:
-        image: cafe137/bee-dashboard
+        container_name: dashboard
+        image: rampall/bee-dashboard
         ports:
-            - 3000:8080
+            - 3333:8080
         networks:
             - public
 
