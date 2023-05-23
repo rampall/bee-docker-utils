@@ -62,3 +62,6 @@ Step 7: Run bee node with docker compose:
 ```
 docker compose up
 ```
+
+## Check Bee Dashboard
+Step 8: Visit the Bee Dashboard at - http://localhost:3333/ 
