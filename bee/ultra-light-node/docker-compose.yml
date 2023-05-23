@@ -1,6 +1,6 @@
 services:
-    bee-ultralightnode:
-        container_name: bee
+    bee:
+        container_name: bee-ulight
         image: ethersphere/bee:stable
         command: start --config /home/bee/.bee.yml
         volumes:
@@ -12,8 +12,8 @@ services:
         networks:
             - public
 
-    bee-ultralightnode-dashboard:
-        container_name: dashboard
+    bee-dashboard:
+        container_name: bee-ulight-dashboard
         image: rampall/bee-dashboard
         ports:
             - 8080:8080
