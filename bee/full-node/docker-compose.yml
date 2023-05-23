@@ -1,0 +1,24 @@
+services:
+    bee-full:
+        container_name: bee
+        image: ethersphere/bee:stable
+        command: start
+        volumes:
+            - ./bee-home-dir:/home/bee
+        ports:
+            - 1133:1633
+            - 1134:1634
+            - 1135:1635
+        networks:
+            - public
+
+    bee-dashboard:
+        container_name: dashboard
+        image: rampall/bee-dashboard
+        ports:
+            - 3333:8080
+        networks:
+            - public
+
+networks:
+    public:

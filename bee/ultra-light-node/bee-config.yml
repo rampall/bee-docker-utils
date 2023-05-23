@@ -1,0 +1,17 @@
+# GENERAL BEE CONFIGURATION
+api-addr: 127.0.0.1:1633
+p2p-addr: :1634
+debug-api-addr: 127.0.0.1:1635
+password-file: /home/bee/password
+data-dir: /home/bee/.bee
+
+# DEBUG CONFIGURATION
+debug-api-enable: true
+verbosity: 5
+
+# BEE MAINNET CONFIGURATION
+bootnode: /dnsaddr/mainnet.ethswarm.org
+
+# BEE MODE: LIGHT CONFIGURATION
+swap-enable: false
+full-node: false
