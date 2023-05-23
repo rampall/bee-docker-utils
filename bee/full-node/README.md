@@ -89,4 +89,10 @@ Visit https://www.gnosisfaucet.com/ and paste the address in the **Wallet** fiel
 
 The bee node's wallet should be now funded and the bee full node will proceed to sync with the Swarm network.
 
-### Step 9: You can visit the Bee Dashboard at - http://localhost:8080/ 
+### Step 9: Check Bee Dashboard
+You can visit the Bee Dashboard at - http://localhost:8080/ 
+
+### Step 10: Stake BZZ
+
+
+
