@@ -1,4 +1,4 @@
-# Bee Quickstart with Docker Compose 
+# Bee Quickstarters with Docker Compose 
 
 Quickstarts:
 
