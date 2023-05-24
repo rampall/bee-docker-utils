@@ -8,4 +8,4 @@ Quickstarts:
 - Run multiple bee nodes using docker compose
 - Host a public Swarm gateway with bee, traefik and gateway-proxy
 - Host a protected Swarm gateway with bee, traefik and gateway-proxy
-- Host a private Swarm gateway for Dapps with bee, traefik and gateway-proxy
+- Host a private Swarm gateway for your Dapp with bee, traefik and gateway-proxy
