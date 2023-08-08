@@ -6,9 +6,9 @@ services:
         volumes:
             - ./bee-home-dir:/home/bee
         ports:
-            - 1633:1633
-            - 1634:1634
-            - 1635:1635
+            - 1633:1633 # bee api port
+            - 1634:1634 # p2p port
+            - 1635:1635 # debug port
         networks:
             - public
 
