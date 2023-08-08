@@ -13,6 +13,6 @@ verbosity: 5
 # BEE MAINNET CONFIGURATION
 bootnode: /dnsaddr/mainnet.ethswarm.org
 
-# BEE MODE: LIGHT CONFIGURATION
+# BEE MODE: ULTRA LIGHT CONFIGURATION
 swap-enable: false
 full-node: false
