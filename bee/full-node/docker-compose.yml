@@ -10,7 +10,7 @@ services:
             - 1634:1634 # p2p port
             - 1635:1635 # debug port
         networks:
-            - public
+            - bee-docker-network
 
     bee-dashboard:
         container_name: bee-fullnode-dashboard
@@ -18,7 +18,7 @@ services:
         ports:
             - 8080:8080
         networks:
-            - public
+            - bee-docker-network
 
 networks:
-    public:
+    bee-docker-network:
